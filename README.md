@@ -29,8 +29,8 @@ O objetivo é criar um esquema em estrela com foco em **professores**, refletind
 .
 ├── README.md
 ├── docs/
-│   ├── modelo_relacional.png        # diagrama de origem
-│   └── star_schema.png              # diagrama dimensional
+│   ├── star_schema.png              # diagrama dimensional
+│   └── modelo_relacional.png        # diagrama de origem
 └── sql/
     ├── 01_criacao_tabelas.sql       # schema, dimensões e fato
     ├── 02_popula_dim_data.sql       # calendário 2020-2030
