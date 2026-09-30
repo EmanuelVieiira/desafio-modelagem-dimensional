@@ -157,7 +157,7 @@ GROUP BY d.semestre_letivo, dep.nome_departamento
 ORDER BY d.semestre_letivo, dep.nome_departamento;
 ```
 
-## 11. Conclusão
+## 10. Conclusão
 
 O esquema em estrela proposto centraliza a análise de professores em uma única tabela fato, cercada por cinco dimensões descritivas. Ele reduz a quantidade de junções em relação ao modelo relacional original, torna as consultas analíticas mais simples e permite análises por tempo, departamento, curso e disciplina.
 
